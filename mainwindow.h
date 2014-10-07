@@ -2,6 +2,12 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QtWebKit>
+#include <QtWebKitWidgets>
+
+#include "webanzeige.h"
+
+
 
 namespace Ui {
 class MainWindow;
@@ -20,6 +26,7 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+    webanzeige  web;
 };
 
 #endif // MAINWINDOW_H
